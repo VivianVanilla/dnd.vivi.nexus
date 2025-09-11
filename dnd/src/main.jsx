@@ -7,7 +7,7 @@ import Classes from './pages/Classes.jsx'
 import Races from './pages/Races.jsx'
 import FragmentedPantheon from './pages/FragmentedPantheon.jsx'
 import VotA from './pages/VotA.jsx'
-import Archived from './pages/archived.jsx'
+import Archived from './pages/Archived.jsx'
 import { BrowserRouter, Routes, Route } from "react-router";
 
 
