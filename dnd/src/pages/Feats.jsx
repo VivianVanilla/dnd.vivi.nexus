@@ -16,11 +16,11 @@ function Feats() {
       <main className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-6 px-2 sm:px-4">
 
         {/* Modified 5e Feats */}
-        <div className="bg-white rounded-xl shadow-md p-4">
-          <h2 className="text-xl font-bold text-blue-900 mb-4 text-center">
+        <div className="bg-black rounded-xl shadow-md p-4">
+          <h2 className="text-xl font-bold text-blue-100 mb-4 text-center">
             Modified 5e Feats
           </h2>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-blue-900 font-medium">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-blue-100 font-medium">
             {modified.map(feat => (
               <li
                 key={feat.id}
@@ -34,11 +34,11 @@ function Feats() {
         </div>
 
         {/* Homebrew Feats */}
-        <div className="bg-white rounded-xl shadow-md p-4">
-          <h2 className="text-xl font-bold text-blue-900 mb-4 text-center">
+        <div className="bg-black rounded-xl shadow-md p-4">
+          <h2 className="text-xl font-bold text-blue-100 mb-4 text-center">
             Homebrew Feats
           </h2>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-blue-900 font-medium">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-blue-100 font-medium">
             {homebrew.map(feat => (
               <li
                 key={feat.id}
@@ -52,11 +52,11 @@ function Feats() {
         </div>
 
         {/* Racial Feats  */}
-        <div className="bg-white rounded-xl shadow-md p-4">
-          <h2 className="text-xl font-bold text-blue-900 mb-4 text-center">
+        <div className="bg-black rounded-xl shadow-md p-4">
+          <h2 className="text-xl font-bold text-blue-100 mb-4 text-center">
             Race Specific Feats
           </h2>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-blue-900 font-medium">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-blue-100 font-medium">
             {racial.map(feat => (
               <li
                 key={feat.id}

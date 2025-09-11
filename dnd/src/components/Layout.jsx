@@ -25,10 +25,10 @@ function Layout({ children }) {
       {/* Sidebar for desktop, dropdown for mobile */}
       <aside className="sm:w-60 w-full sm:min-h-screen flex-shrink-0">
         {/* Mobile Dropdown */}
-        <div className="sm:hidden w-full px-4 py-2 bg-white/80 border-b-2 border-blue-800 flex items-center justify-between">
-          <span className="font-bold text-blue-900 text-lg">Menu</span>
+        <div className="sm:hidden w-full px-4 py-2 bg-black border-b-2 border-slate-900 flex items-center justify-between">
+          <span className="font-bold text-white text-lg">Menu</span>
           <button
-            className="p-2 rounded-md border border-blue-800 bg-blue-900 text-white"
+            className="p-2 rounded-md border border-slate-900 bg-blue-950 text-white"
             onClick={() => setSidebarOpen((open) => !open)}
             aria-label="Toggle sidebar menu"
           >
@@ -67,7 +67,7 @@ function Layout({ children }) {
         </div>
         {/* Dropdown menu for mobile */}
         {sidebarOpen && (
-          <nav className="sm:hidden flex flex-col gap-2 px-4 py-2 bg-white/90 border-b-2 border-blue-800 z-10">
+          <nav className="sm:hidden flex flex-col gap-2 px-4 py-2 bg-black border-b-2 border-slate-900 z-10">
             {sidebarLinks.map((link) => (
               <SidebarButton
                  path={link.path}
@@ -79,7 +79,7 @@ function Layout({ children }) {
           </nav>
         )}
         {/* Sidebar for desktop */}
-        <nav className="hidden sm:flex flex-col gap-2 py-8 px-2 bg-white/80 min-h-screen border-r-2 border-blue-800 items-stretch">
+        <nav className="hidden sm:flex flex-col gap-2 py-8 px-2 bg-black min-h-screen border-r-2 border-slate-900 items-stretch">
           {sidebarLinks.map((link) => (
             <SidebarButton
               path={link.path}

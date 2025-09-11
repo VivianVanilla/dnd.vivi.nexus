@@ -5,14 +5,31 @@
     <link rel="icon" type="image/svg+xml" href="/star.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/App.css" />
+    <style>
+  :root {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #4e2424, #0d0a1b, #010833, #000);
+    background-size: 400% 400%;
+    animation: gradientChase 15s ease infinite;
+    color: #f5f5f5;
+  }
+
+  @keyframes gradientChase {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+</style>
+
     <title>DND Homebrew</title>
   
   </head>
   <body>
     <div
       id="root"
-      class="min-h-screen bg-gradient-to-r from-blue-950 via-purple-950 to-red-950
-             "
+      class=""
     >
     </div>
     <script type="module" src="/src/main.jsx"></script>
