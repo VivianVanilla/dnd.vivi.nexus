@@ -15,7 +15,7 @@ function Layout({ children }) {
     { label: "Races", path: "/Races" },
     { label: "Fragmented Pantheon" , path: "/FragmentedPantheon" },
     { label: "Veins of the Abyss" , path: "/VotA" },
-    { label: "Archived", path: "/Archived" },
+    // { label: "Archived", path: "/Archived" },
 
   ];
 
