@@ -18,7 +18,7 @@ export const modifiedFeats = [
 
 - Increase your Strength or Consititution score by 1, to a maximum of 20.
 - You are proficient with improvised weapons.
-- When you make an unarmed attack, your **Strength Modifier is added to the damage an additional time**.`
+- When you make an unarmed attack, you add +3 to the attacks damage.`
   }, 
   { 
     id: 3, 
@@ -98,4 +98,18 @@ Prerequisite: Strength 17+
 -  **You can use this bonus action a number of times equal to your proficiency bonus + 1**, and you regain all expended uses when you finish a short rest.
 
 `
-    }, ]
+    },
+  { 
+        id: 8,
+    name: "Dedicant Druid",
+    type: "Homebrew",
+    description: `
+
+#### Requires atleast 1 level in druid to take this feat. A rite of passage for Archdruids is to train as a Dedicant Druid. Allowing themselves to exhaust over and over to master the ability to shift from their sacred anima forms to their normal selves.
+-  Gain an additional wildshape use.
+- Choose a Monstrosity of your choice that follows the rules of your Beast Shapes tables and CR restrictions. You may change this monstrosity every time you gain a level in the druid class
+
+`
+
+  },
+   ]
