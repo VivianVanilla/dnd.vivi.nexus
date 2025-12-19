@@ -15,8 +15,8 @@ function Home() {
         <div className="w-full max-w-xl bg-black rounded-2xl shadow-lg p-4 sm:p-6 mb-8">
           <h3 className="text-xl sm:text-2xl font-bold text-blue-100 mb-2">Newest Content:</h3>
           <ul className="list-disc list-inside text-blue-100">
-            <li>New Warlock Subclass: Primordial Shadow  </li>
-            <li>New Class: The LifeWeaver | A flexible 'do anything' class </li>
+            <li>New Damage Type: Sickness </li>
+            <li> Updated: WorldWeaver </li>
           </ul>
         </div>
 
