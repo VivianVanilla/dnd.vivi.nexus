@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function Hub() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-pink-950 to-slate-900 flex flex-col items-center py-6 px-1 sm:px-4">
+    <div className="min-h-screen bg-gradient-to-br bg-slate-950 flex flex-col items-center py-6 px-1 sm:px-4">
       <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-100 drop-shadow-lg mb-2 animate-bounce tracking-wide">
         Viv's Nexus
       </h1>
@@ -25,24 +25,24 @@ function Hub() {
           </Link>
 
           {/* Thieves' Key Coder Card */}
-          <a href="https://thieves-key-coder.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
-            <div className="bg-gradient-to-br from-red-800 to-pink-900 rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform duration-300 h-full flex flex-col">
+          <a href="https://keycoder.vivi.nexus/" target="_blank" rel="noopener noreferrer" className="block">
+            <div className="bg-gradient-to-br bg-red-800 rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform duration-300 h-full flex flex-col">
               <div className="bg-gradient-to-br from-gray-600 to-black rounded-lg h-32 mb-4 flex items-center justify-center">
                 <span className="text-white text-4xl">🔐</span>
               </div>
               <h4 className="text-lg font-semibold text-blue-100 mb-2">Thieves' Key Coder</h4>
-              <p className="text-blue-200 text-sm flex-grow">A tool for encoding and decoding messages using the Thieves' Cant from D&D.</p>
+              <p className="text-blue-200 text-sm flex-grow">A tool for encoding and decoding messages using the univer table of all avaible text in the internet!</p>
             </div>
           </a>
 
              {/* Spell Sorter*/}
-          <a href="https://thieves-key-coder.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
-            <div className="bg-gradient-to-br from-red-800 to-pink-900 rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform duration-300 h-full flex flex-col">
-              <div className="bg-gradient-to-br from-gray-600 to-black rounded-lg h-32 mb-4 flex items-center justify-center">
-                <span className="text-white text-4xl">🔐</span>
+          <a href="https://spells.vivi.nexus/" target="_blank" rel="noopener noreferrer" className="block">
+            <div className="bg-gradient-to-br bg-purple-950 rounded-2xl shadow-lg p-6 hover:scale-105 transition-transform duration-300 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-black to-slate-400 rounded-lg h-32 mb-4 flex items-center justify-center">
+                <span className="text-white text-4xl">📋</span>
               </div>
-              <h4 className="text-lg font-semibold text-blue-100 mb-2">Thieves' Key Coder</h4>
-              <p className="text-blue-200 text-sm flex-grow">A tool for encoding and decoding messages using the Thieves' Cant from D&D.</p>
+              <h4 className="text-lg font-semibold text-blue-100 mb-2">Spell Sorter</h4>
+              <p className="text-blue-200 text-sm flex-grow">A tool for organizing and sorting spells for your D&D character creation or monster building.</p>
             </div>
           </a>
 
