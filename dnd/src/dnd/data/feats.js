@@ -53,10 +53,10 @@ export const modifiedFeats = [
     name: "Body Thrower", 
     type: "Homebrew",
     description: `
-Prerequisite: Strength 17+
+
 
 #### You are a master of using the battlefield — and its inhabitants — as weapons. You can pick up creatures and hurl them with deadly force, turning even your enemies into improvised missiles.
-
+**Prerequisite: Strength 17+**
 -  You gain proficiency with improvised weapons. When you throw or swing a creature as an improvised weapon, it deals 1d6 + your Strength modifier damage.
 
 -  Any creature you are grappling can be thrown or swung like a weapon. The creature must make a Dexterity saving throw (DC = 8 + your proficiency bonus + Strength modifier). On a failed save, it takes the damage listed above; on a success, it takes half damage.
@@ -95,7 +95,6 @@ Prerequisite: Strength 17+
 #### An ancient right of passage among the Harco is to enter a blood frenzy, a state of heightened aggression and physical prowess. This rite is often undertaken to prove one's strength and courage, and it is said to bring out the true nature of the Harco warrior.
 -  Increase your Strength by 1 to a maximum of 20.
 - After making a melee weapon attack on your turn, you can use your bonus action to make a bite attack. (1d6 + your Strength modifier piercing damage)
--  **You can use this bonus action a number of times equal to your proficiency bonus + 1**, and you regain all expended uses when you finish a short rest.
 
 `
     },
@@ -111,5 +110,23 @@ Prerequisite: Strength 17+
 
 `
 
-  },
+  },  { 
+        id: 9,
+    name: "Fey Bargainer",
+    type: "Homebrew",
+    description: `
+
+ 
+#### You can form magically binding contracts enforced by the Feywild. 
+ **Prerequisite: Be the fey creature type.**
+- You can maintain a number of active contracts equal to your Charisma modifier (minimum 1). Contracts may be made with any creature that understands you and agrees. A contract must be spoken in 30 words or fewer and a penalty that applies to both parties if broken.
+
+When making a contract, choose one binding effect :
+- **Favor**: A generic harmless favor like transportation, information, etc.
+- **Gold or Possessions** (value up to 500 gp): If the contract is broken, gold or items owned by the breaker equal in value to the contract’s benefit are instantly teleported to the other party.
+- **Restraining Order** (duration up to 3 days): You cannot willingly move closer to the other party.
+
+`
+
+  }
    ]

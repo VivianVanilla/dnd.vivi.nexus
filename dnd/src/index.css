@@ -1,1 +1,91 @@
 @import 'tailwindcss';
+
+/* Standalone markdown styles for `.prose` so markdown renders without Tailwind processing */
+:root{
+	--prose-text: #000000;
+	--prose-link: #1d4ed8;
+	--prose-muted: #374151;
+	--prose-pre-bg: #0f172a;
+	--prose-code-bg: #e5e7eb;
+}
+
+/* container */
+.prose{
+	max-width: 100%;
+	color: var(--prose-text);
+	line-height: 1.6;
+	font-size: 1rem;
+}
+
+/* headings */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6{
+	color: var(--prose-text);
+	font-weight: 700;
+	margin-top: 1.25rem;
+	margin-bottom: 0.5rem;
+}
+
+/* links */
+.prose a{
+	color: var(--prose-link);
+	text-decoration: underline;
+}
+
+/* blockquote */
+.prose blockquote{
+	border-left: 4px solid #d1d5db;
+	padding-left: 1rem;
+	color: var(--prose-muted);
+	font-style: italic;
+	margin: 1rem 0;
+}
+
+/* code blocks */
+.prose pre{
+	background: var(--prose-pre-bg);
+	color: #fff;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	overflow: auto;
+	margin: 1rem 0;
+}
+
+.prose code{
+	background: var(--prose-code-bg);
+	padding: 0.12rem 0.35rem;
+	border-radius: 0.25rem;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+	font-size: 0.95em;
+	color: #b91c1c;
+}
+
+/* lists */
+.prose ul{
+	margin: 0.5rem 0 0.5rem 0;
+	padding-left: 0;
+}
+
+.prose li{
+	margin: 0.25rem 0;
+}
+
+/* Use a pleading emoji as the bullet marker for unordered lists */
+.prose ul li{
+	position: relative;
+	padding-left: 1.6rem;
+}
+
+.prose ul li::before{
+	content: '•';
+	position: absolute;
+	left: 0;
+	top: 0.12rem;
+	font-size: 1rem;
+	line-height: 1;
+}
+
