@@ -110,23 +110,5 @@ export const modifiedFeats = [
 
 `
 
-  },  { 
-        id: 9,
-    name: "Fey Bargainer",
-    type: "Homebrew",
-    description: `
-
- 
-#### You can form magically binding contracts enforced by the Feywild. 
- **Prerequisite: Be the fey creature type.**
-- You can maintain a number of active contracts equal to your Charisma modifier (minimum 1). Contracts may be made with any creature that understands you and agrees. A contract must be spoken in 30 words or fewer and a penalty that applies to both parties if broken.
-
-When making a contract, choose one binding effect :
-- **Favor**: A generic harmless favor like transportation, information, etc.
-- **Gold or Possessions** (value up to 500 gp): If the contract is broken, gold or items owned by the breaker equal in value to the contract’s benefit are instantly teleported to the other party.
-- **Restraining Order** (duration up to 3 days): You cannot willingly move closer to the other party.
-
-`
-
-  }
+  }, 
    ]
